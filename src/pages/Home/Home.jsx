@@ -8,9 +8,18 @@ const Home = () => {
         <h1>Largest <br/> Crypto Marketplace</h1>
         <p>Welcome to the worl's largest cryptocurreny Marketplace</p>
         <form>
-            <input type = 'text'placeholder='Search Crypto...'/>
+            <input type = 'text' placeholder='Search Crypto...'/>
             <button type='submit'>Submit</button>
         </form>
+      </div>
+      <div className="crypto-table">
+        <div className="table-layout">
+            <p>#</p>
+            <p>Coins</p>
+            <p>Price</p>
+            <p style={{textAlign:'center'}}>24H Change</p>
+            <p className='market-cap'>Market Cap</p>
+        </div>
       </div>
     </div>
   )
