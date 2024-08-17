@@ -56,8 +56,8 @@
 .crypto-table{
     max-width: 800px;
     margin: auto;
-    background: linear-gradient(rgba(84,3,255,0.15),
-    rgba(105,2,153,0.15));
+    background: linear-gradient(rgba(135, 206, 250, 0.15), rgba(173, 216, 230, 0.15));
+
     border-radius: 15px;
 }
 .table-layout{

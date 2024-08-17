@@ -17,3 +17,57 @@
         transform: rotate(360deg);
     }
 }
+.coin{
+    padding: 0 20px;
+
+}
+.coin-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 100px auto;
+    margin-bottom: 50px;
+}
+.coin-image img{
+    max-width: 100px;
+}
+.coin-name p b{
+    font-size: 44px;
+    font-weight: 500;
+}
+.coin-chart{
+    max-width: 600px;
+    height: 250px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.coin-info {
+    padding-left: 30%;
+    max-width: 600px;
+    margin: 20; /* Center the entire .coin-info section */
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Center text within the .coin-info */
+}
+
+.coin-info ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0; /* Adjust padding as needed */
+    margin: 0; /* Ensure no margin is applied */
+    border-bottom: 1px solid #5f5d5f;
+    list-style: none;
+    width: 100%; /* Make sure the ul takes full width */
+}
+
+.coin-info ul li {
+    margin: 0;
+    padding: 0;
+    flex: 1; /* Make sure each li item takes up equal space */
+    text-align: center; /* Center the text inside each li */
+}
+
+.coin-info ul li:last-child{
+    font-weight: 300;
+}
